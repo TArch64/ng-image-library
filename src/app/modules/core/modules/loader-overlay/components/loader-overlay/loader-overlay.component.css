@@ -1,0 +1,7 @@
+.il-spinner {
+  position: fixed;
+  left: var(--il-spinner-size);
+  top: var(--il-spinner-size);
+
+  --il-spinner-size: calc(50% - 48px);
+}

@@ -1,0 +1,7 @@
+<mat-grid-list [cols]="3" [gutterSize]="16">
+  <mat-grid-tile *ngFor="let image of images$ | async">
+    <a class="il-images-list__item" [routerLink]="['./', image.id]">
+      <img class="il-images-list__illustration" [src]="image.src" [alt]="image.filename">
+    </a>
+  </mat-grid-tile>
+</mat-grid-list>

@@ -1,0 +1,9 @@
+<ul class="il-breadcrumbs">
+  <li class="il-breadcrumbs__item" *ngFor="let breadcrumb of breadcrumbs; let isLastItem = last">
+    <a class="il-breadcrumbs__item-link" [routerLink]="breadcrumb.path">
+      <span>{{ breadcrumb.title }}</span>
+    </a>
+
+    <span *ngIf="!isLastItem">/</span>
+  </li>
+</ul>

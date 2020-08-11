@@ -1,0 +1,7 @@
+<app-layout [pageTitle]="pageTitle" [breadcrumbs]="breadcrumbs">
+  <app-image-view class="il-image-page" [image]="image | async"></app-image-view>
+
+  <ng-container page-actions>
+    <app-delete-image></app-delete-image>
+  </ng-container>
+</app-layout>

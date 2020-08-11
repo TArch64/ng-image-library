@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  --il-offset-xxs: 4px;
+  --il-offset-xs: 8px;
+  --il-offset-sm: 16px;
+  --il-offset-md: 24px;
+  --il-offset-xlg: 48px;
+}

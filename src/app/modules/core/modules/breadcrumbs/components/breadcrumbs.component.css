@@ -1,0 +1,25 @@
+.il-breadcrumbs {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.il-breadcrumbs__item:not(:last-child) {
+  padding-right: var(--il-offset-xs);
+}
+
+.il-breadcrumbs__item-link {
+  padding-top: var(--il-offset-xxs);
+  padding-bottom: var(--il-offset-xxs);
+  transition: opacity .3s ease;
+  color: #673ab7 !important;
+}
+
+.il-breadcrumbs__item-link:not(:last-child) {
+  padding-right: var(--il-offset-xxs);
+}
+
+.il-breadcrumbs__item-link:hover {
+  opacity: .8;
+}

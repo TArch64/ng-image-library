@@ -1,0 +1,14 @@
+.il-app-content {
+  padding-top: var(--il-offset-xs);
+  padding-left: var(--il-offset-md);
+  padding-right: var(--il-offset-md);
+  padding-bottom: var(--il-offset-xlg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.il-app-content__breadcrumbs {
+  padding-bottom: var(--il-offset-sm);
+  display: block;
+}

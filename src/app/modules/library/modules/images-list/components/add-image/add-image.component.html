@@ -1,0 +1,14 @@
+<label for="add-image-to-library">
+  <a mat-icon-button>
+    <mat-icon>add</mat-icon>
+  </a>
+</label>
+
+<input
+  id="add-image-to-library"
+  type="file"
+  hidden
+  multiple
+  #imagesSelect
+  (change)="upload()"
+>

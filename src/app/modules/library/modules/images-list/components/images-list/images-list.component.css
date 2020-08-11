@@ -1,0 +1,11 @@
+.il-images-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.il-images-list__illustration {
+  max-height: 100%;
+  max-width: 100%;
+}

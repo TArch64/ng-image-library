@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <h1>{{ pageTitle }}</h1>
+
+  <app-mat-spacer></app-mat-spacer>
+
+  <ng-content select="[page-actions]"></ng-content>
+</mat-toolbar>
+
+<div class="il-app-content">
+  <app-breadcrumbs class="il-app-content__breadcrumbs" [breadcrumbs]="breadcrumbs"></app-breadcrumbs>
+  <ng-content></ng-content>
+</div>

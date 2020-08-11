@@ -1,0 +1,14 @@
+<div cdkOverlayOrigin #trigger="cdkOverlayOrigin"></div>
+
+<ng-template
+  cdkConnectedOverlay
+  [cdkConnectedOverlayOpen]="isEnabledLoader$ | async"
+  [cdkConnectedOverlayOrigin]="trigger"
+  [cdkConnectedOverlayHasBackdrop]="true"
+  [cdkConnectedOverlayLockPosition]="true"
+>
+  <mat-spinner
+    [diameter]="96"
+    class="il-spinner"
+  ></mat-spinner>
+</ng-template>
